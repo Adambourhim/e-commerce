@@ -15,12 +15,21 @@
 }
 .slidemenu {
   display: flex;
+  cursor: pointer;
   width: 70%;
   margin: -90px auto;
   list-style: none;
   justify-content: space-between;
 }
+.f1:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.2s ease-in-out;
+}
 .f1 {
   width: 140px;
   border-radius: 50%;
+}
+.secondbox {
+  display: flex;
+  margiin: 0px auto;
 }

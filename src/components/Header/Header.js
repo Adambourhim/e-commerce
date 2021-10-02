@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Header.module.css";
-import logo from "./profile.png";
 export default function Header() {
   return (
     <div className={styles.global}>
