@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className={styles.global}>
       <div className={styles.header}>
-        <div className={styles.logo}>Free Bird</div>
+        <div className={styles.logo}>Free</div>
         <div className={styles.input}>
           <input
             className={styles.searchbar}
